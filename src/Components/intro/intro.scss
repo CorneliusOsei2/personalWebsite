@@ -1,5 +1,16 @@
+$total-arrows: 3;
+$arrow-line-length: 50px;
+$arrow-line-width: 4px;
+
+// arrow animtion + choose direction
+@mixin arrow-transitions($rot: 0deg) {
+  transform: translate(-50%, -50%) rotateZ($rot);
+}
+
+
 .intro{
     background-color: white;
+    overflow: hidden;
 
     .left{
         overflow: hidden;
@@ -65,22 +76,6 @@
             width: 100%;
         }
 
-        a {
-            position: relative;
-            bottom: 10px;
-            left: 40%;
-            top: -100px;
-
-            img {
-                width: 30px;
-                animation: arrowBlink 2s infinite;
-            }
-
-            @keyframes arrowBlink{
-                100%{
-                    opacity: 0;
-                }
-            }
-        }
+        
     }
 }

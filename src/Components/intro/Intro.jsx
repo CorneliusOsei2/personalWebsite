@@ -16,7 +16,7 @@ function Intro() {
         })
     }, [])
     return (
-        <div className="intro d-flex" id="intro">
+        <div className="intro d-flex row" id="intro">
             <div className="left col-md-6">
                 <div className="imgContainer">
                     <img src="" alt="" />
@@ -32,9 +32,8 @@ function Intro() {
                     <h3 ref={textRef}></h3>
                 </div>
 
-                <a href="#portfolio" className="">
-                    <img src="Images/down_arrow.jpeg" alt="" />
-                </a>
+
+
             </div>
         </div>
     )
