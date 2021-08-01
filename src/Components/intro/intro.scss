@@ -1,6 +1,5 @@
-$total-arrows: 3;
-$arrow-line-length: 50px;
-$arrow-line-width: 4px;
+@import "../../global.scss";
+
 
 // arrow animtion + choose direction
 @mixin arrow-transitions($rot: 0deg) {
@@ -11,10 +10,16 @@ $arrow-line-width: 4px;
 .intro{
     background-color: white;
     overflow: hidden;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left{
+        flex: 0.5;
         overflow: hidden;
-        
 
         .imgContainer{
             width: 700px;
@@ -24,14 +29,24 @@ $arrow-line-width: 4px;
             display: flex;
             align-items: flex-end;
             justify-content: center;
+            float: left;
+
+            @include mobile{
+                align-items: flex-start;
+            }
 
             img{
                 height: 90%;
+
+                @include mobile{
+                    height: 50%;
+                }
             }
         }
     }
 
     .right{
+        flex: 0.5;
         position: relative;
         overflow: hidden;
         
@@ -43,26 +58,44 @@ $arrow-line-width: 4px;
             justify-content: center;
             display: flex;
 
+            
+
             h1{
                 font-size: 50px;
                 font-weight: bold;
                 margin: 10px 0;
+
+                @include mobile{
+                    margin: 2px 0;
+                    font-size: 35px;
+                }
             }
 
             h2 {
-                font-size: 30px;
+                font-size: 12px;
                 color: rgb(8, 144, 185);;
+
+                @include mobile{
+                    font-size: 20px;
+                }
 
             }
 
             h3 {
-                font: size 28px;
+                font: size 12px;
+                @include mobile{
+                    font-size: 22px;
+                }
             }
 
             p {
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 font-size: 24px;
                 color: rgb(8, 129, 185);;
+
+                @include mobile{
+                    font-size: 20px;
+                }
             }
 
             a {

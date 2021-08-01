@@ -1,15 +1,14 @@
 import React from 'react'
-import { Profiler } from 'react'
 import './project.scss'
 
 function Project() {
     return (
-        <div className="project bg-white" id="project">
+        <div className="project" id="project">
             <h1>Projects</h1>
 
             
 
-            <div className="proj-container d-flex justify-content-center">
+            <div className="proj-container">
                 <div className="proj">
                     <div className="top">
                     <div class="image-box">
@@ -28,7 +27,7 @@ function Project() {
                         </div>
                     </div>
                     <div className="center">
-                        <div className="btn">Here</div>
+                        <div className="title">Here</div>
                     </div>
                     <div className="bottom">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
@@ -60,7 +59,7 @@ function Project() {
                         </div>
                     </div>
                     <div className="center">
-                        <div className="btn">Here</div>
+                        <div className="title">Here</div>
                     </div>
                     <div className="bottom">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
@@ -92,7 +91,7 @@ function Project() {
                         </div>
                     </div>
                     <div className="center">
-                        <div className="btn">Here</div>
+                        <div className="title">Here</div>
                     </div>
                     <div className="bottom">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 

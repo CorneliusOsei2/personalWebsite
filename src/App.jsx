@@ -3,6 +3,7 @@ import Intro from './Components/intro/Intro'
 import Project from './Components/project/Project'
 import Contact from './Components/contact/Contact'
 import Menu from './Components/menu/Menu'
+import Footer from './Components/footer/Footer'
 
 import {useState} from 'react'
 
@@ -18,9 +19,8 @@ const App = () => {
       <div className="sections">
         <Intro/>
         <Project />
-        <Contact />
       </div>
-      
+      <Footer />
     </div>
   );
 }
