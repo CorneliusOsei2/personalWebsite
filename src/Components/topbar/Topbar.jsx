@@ -13,10 +13,6 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
                         <Person className="icon"/>
                         <span>(646)247-7478</span>
                     </div>
-                    {/* <div className="itemContainer">
-                        <Mail className="icon" />
-                        <span>iooiwjeowji</span>
-                    </div> */}
                 </div>
 
                 <div className="right">

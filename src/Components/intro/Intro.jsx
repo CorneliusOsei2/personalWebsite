@@ -5,16 +5,27 @@ import { init } from 'ityped'
 import {useEffect, useRef} from 'react'
 
 function Intro() {
-    const textRef = useRef()
+    const titleRef = useRef()
+    const descRef = useRef()
 
     useEffect(() => {
-        init(textRef.current, {
+        init(titleRef.current, {
+            typeSpeed: 40,
             showCursor: false,
             strings: ['Computer Science Student'],
-            backDelay: 1300,
-            backSpeed: 60
+            backDelay: 50000,
+        })
+
+        init(descRef.current, {
+            typeSpeed: 40,
+            showCursor: false,
+            backDelay: 50000,
+            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'],
+            
         })
     }, [])
+
+    
     return (
         <div className="intro d-flex row" id="intro">
             <div className="left col-md-6">
@@ -27,10 +38,21 @@ function Intro() {
                 <Particles params={particlesConfig} className='particles-container'/>
 
                 <div className="wrapper">
-                    <h2>Hi there, I'm'</h2>
+                    <h2>Hi there, I'm</h2>
                     <h1>Cornelius</h1>
-                    <h3 ref={textRef}></h3>
+                    <h3 ref={titleRef}></h3>
+
+                    <p ref={descRef}>
+
+                    </p>
+
+                    <a href="#project">
+                        <img src="Images/arrow.png" alt="" />
+                    </a>
+
                 </div>
+
+                
 
 
 

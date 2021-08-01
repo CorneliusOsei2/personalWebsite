@@ -51,13 +51,41 @@ $arrow-line-width: 4px;
 
             h2 {
                 font-size: 30px;
+                color: rgb(8, 144, 185);;
+
             }
 
             h3 {
                 font: size 28px;
+            }
+
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 24px;
                 color: rgb(8, 129, 185);;
             }
+
+            a {
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
+
+          
+                img {
+                  
+                  width: 60px;
+                  animation: arrowBlink 2s infinite;
+                }
+          
+                @keyframes arrowBlink {
+                  100% {
+                    opacity: 0;
+                  }
+                }
+            }
         }
+
+       
 
 
         .particles-container {

@@ -1,7 +1,6 @@
 import Topbar from './Components/topbar/Topbar'
 import Intro from './Components/intro/Intro'
-import Portfolio from './Components/portfolio/Portfolio'
-import Works from './Components/works/Works'
+import Project from './Components/project/Project'
 import Contact from './Components/contact/Contact'
 import Menu from './Components/menu/Menu'
 
@@ -18,8 +17,7 @@ const App = () => {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Portfolio />
-        <Works />
+        <Project />
         <Contact />
       </div>
       
