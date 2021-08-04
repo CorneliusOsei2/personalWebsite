@@ -42,7 +42,9 @@
           @include mobile{
             width: 400px;
             height: 90%;
-            margin-bottom: 25px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 35px;
           }
 
             &:hover {
@@ -50,6 +52,7 @@
                 height: 90%;
                 transform: scale(1.05);
                 transition: all 0.5s ease;
+                
 
                 @include mobile{
                   width: 400px;
@@ -125,11 +128,12 @@
                     margin-bottom: 8px;
 
                     div{
-                      background-color:rgb(137, 204, 235);
+                      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                      font-style: italic;
+                      font-size: 16px;
                       border-radius: 7px;
                       padding: 0px 20px;
                       font-weight: bold;
-                      height: 25px;
                     }
                 }
             }
