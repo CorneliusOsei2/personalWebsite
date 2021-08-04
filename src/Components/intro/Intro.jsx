@@ -22,7 +22,7 @@ function Intro() {
             typeSpeed: 40,
             showCursor: false,
             backDelay: 50000,
-            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'],
+            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'],
             
         })
     }, [])
