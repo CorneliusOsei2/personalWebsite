@@ -8,9 +8,12 @@
 
 
 .intro{
+    height: calc(100vh - 70px);
+
     background-color: white;
     overflow: hidden;
     display: flex;
+
 
     @include mobile{
         flex-direction: column;
@@ -24,6 +27,10 @@
         flex-direction: column;
         align-items: center;
         overflow: hidden;
+
+        @include mobile{
+            flex: 0.4;
+        }
 
        
         .itemContainer {

@@ -24,10 +24,9 @@ function Project() {
                         </div>
                         </div>
                     </div>
-                    <div className="center">
-                        <div className="title">Here</div>
-                    </div>
+                    
                     <div className="bottom">
+                        <div className="title">Name</div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                     
@@ -55,10 +54,9 @@ function Project() {
                         </div>
                         </div>
                     </div>
-                    <div className="center">
-                        <div className="title">Here</div>
-                    </div>
+                    
                     <div className="bottom">
+                        <div className="title">Name</div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                         
@@ -86,10 +84,9 @@ function Project() {
                         </div>
                         </div>
                     </div>
-                    <div className="center">
-                        <div className="title">Here</div>
-                    </div>
+                    
                     <div className="bottom">
+                        <div className="title">Name</div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                         
@@ -117,15 +114,14 @@ function Project() {
                         </div>
                         </div>
                     </div>
-                    <div className="center">
-                        <div className="title">Here</div>
-                    </div>
+                    
                     <div className="bottom">
+                        <div className="title">Name</div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                         
                         <div className="tech">
-                            <div>Languages and Technologies Used:</div>
+                            Languages and Technologies Used:
                             Python
                         </div>
                     </div>
