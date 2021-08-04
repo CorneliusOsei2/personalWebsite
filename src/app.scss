@@ -12,7 +12,7 @@
         &::-webkit-scrollbar{
             display: none;
         }
-        scroll-behavior: smooth;
+        scroll-behavior: auto;
 
         > *{
             width: 100vw;
