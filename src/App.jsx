@@ -1,7 +1,6 @@
 import Topbar from './Components/topbar/Topbar'
 import Intro from './Components/intro/Intro'
 import Project from './Components/project/Project'
-import Contact from './Components/contact/Contact'
 import Menu from './Components/menu/Menu'
 import Footer from './Components/footer/Footer'
 

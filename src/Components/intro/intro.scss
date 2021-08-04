@@ -21,6 +21,10 @@
         flex: 0.5;
         overflow: hidden;
 
+        @include mobile{
+            flex: 0.4;
+        }
+
         .imgContainer{
             width: 700px;
             height: 700px;
@@ -33,6 +37,7 @@
 
             @include mobile{
                 align-items: flex-start;
+                height: 600px;
             }
 
             img{
@@ -49,6 +54,11 @@
         flex: 0.5;
         position: relative;
         overflow: hidden;
+
+        @include mobile{
+            flex: 0.6;
+        }
+
         
         .wrapper{
             width: 100%;
@@ -108,6 +118,10 @@
                   
                   width: 60px;
                   animation: arrowBlink 2s infinite;
+
+                    @include mobile{
+                        width: 40px;
+                    }
                 }
           
                 @keyframes arrowBlink {
