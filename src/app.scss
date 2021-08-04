@@ -8,10 +8,10 @@
         position: relative;
         top: 70px;
         // scroll-snap-type: y mandatory;
-        // scrollbar-width: none; //firefox
-        // &::-webkit-scrollbar{
-        //     display: none;
-        // }
+        scrollbar-width: none; //firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
         scroll-behavior: smooth;
 
         > *{

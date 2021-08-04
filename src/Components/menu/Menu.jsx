@@ -5,13 +5,10 @@ const Menu = ({menuOpen, setMenuOpen}) => {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <li onClick={() => setMenuOpen(!menuOpen)}>
-                    <a href="#intro">Intro</a>
+                    <a href="#intro">About Me</a>
                 </li>
                 <li onClick={() => setMenuOpen(!menuOpen)}>
                     <a href="#project">Projects</a>
-                </li>
-                <li onClick={() => setMenuOpen(!menuOpen)}>
-                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
