@@ -2,7 +2,7 @@
 
 
 .project{
-
+    padding-bottom: 8px;
 
     h2{
       margin-top: 5px;
@@ -20,6 +20,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 4%;
 
       @include mobile{
         display: flex;
@@ -73,7 +74,7 @@
 
             .top {
 
-                height: 420px;
+                height: 350px;
 
                 .image-box{
                     display: flex;
@@ -113,7 +114,7 @@
 
 
             .bottom {
-                margin: 6px 6px;
+                margin: 0 6px;
 
                 .title{
                   font-weight: bold;
