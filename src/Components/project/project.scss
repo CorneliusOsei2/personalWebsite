@@ -52,10 +52,12 @@
                 transition: all 0.5s ease;
 
                 @include mobile{
-                  width: 420px;
+                  width: 400px;
                   height: 90%;
-                  margin: auto;
-                  margin-bottom: 15px;
+                  margin-top: 20px;
+                  margin-bottom: 35px;
+                  margin-left: 10px;
+                  margin-right: 10px;
                 }
             }
 
@@ -110,7 +112,6 @@
 
             .bottom {
                 margin: 6px 6px;
-                background-color: rgba(233, 230, 230, 0.822);
                 height: 350px;
 
                 @include mobile{
@@ -122,8 +123,14 @@
                 .tech {
                     padding: 5px;
                     margin-bottom: 8px;
-                    background-color: rgba(253, 253, 253, 0.822);
 
+                    div{
+                      background-color:rgb(137, 204, 235);
+                      border-radius: 7px;
+                      padding: 0px 20px;
+                      font-weight: bold;
+                      height: 25px;
+                    }
                 }
             }
         }
