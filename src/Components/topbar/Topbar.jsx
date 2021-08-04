@@ -1,5 +1,4 @@
 import './topbar.scss'
-import {Person, Mail} from '@material-ui/icons'
 
 import React from 'react'
 
@@ -9,10 +8,7 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
             <div className="wrapper d-flex justify-content-between">
                 <div className="left">
                     <a href="#intro" className="logo">Cornelius</a>
-                    <div className="itemContainer">
-                        <Person className="icon"/>
-                        <span>(646)247-7478</span>
-                    </div>
+                    
                 </div>
 
                 <div className="right">

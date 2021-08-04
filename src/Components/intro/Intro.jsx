@@ -3,6 +3,8 @@ import Particles from 'react-particles-js';
 import particlesConfig from '../particle/particlesConfig.json'
 import { init } from 'ityped'
 import {useEffect, useRef} from 'react'
+import {Person, LinkedIn, AssignmentInd} from '@material-ui/icons'
+
 
 function Intro() {
     const titleRef = useRef()
@@ -32,15 +34,20 @@ function Intro() {
                 <div className="imgContainer">
                     <img src="" alt="" />
                 </div>
+
+                <div className="itemContainer">
+                    <a href="linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
+                    <a href=""><AssignmentInd className="icon" /></a>
+                </div>
             </div>
 
             <div className="right">
                 <Particles params={particlesConfig} className='particles-container'/>
 
                 <div className="wrapper">
-                    <h2>Hi there, I'm</h2>
-                    <h1>Cornelius</h1>
-                    <h3 ref={titleRef}></h3>
+                    <h4>Hi there, I'm</h4>
+                    <h2>Cornelius</h2>
+                    <h4 ref={titleRef}></h4>
 
                     <p ref={descRef}>
 

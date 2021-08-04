@@ -26,26 +26,11 @@
                 font-weight: bold;
                 text-decoration: none;
                 color:inherit;
+                font-family: Georgia, 'Times New Roman', Times, serif;
 
                 @include mobile{
                     font-size: 18px;
                     margin-right: 18px;
-                }
-            }
-
-            .itemContainer {
-                display: flex;
-                align-items: center;
-                margin-left: 30px;
-
-                .icon{
-                    font-size: 18px;
-                    margin-right: 5px;
-                }
-
-                span{
-                    font-size: 15px;
-                    font-weight: 500;
                 }
             }
         }
