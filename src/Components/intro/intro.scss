@@ -28,7 +28,7 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            background-color: red;
+            background-color:blue;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -113,8 +113,8 @@
 
             a {
                 position: absolute;
-                bottom: 10px;
-                left: 40%;
+                bottom: 20px;
+                left: 50%;
 
           
                 img {
@@ -123,7 +123,7 @@
                   animation: arrowBlink 2s infinite;
 
                     @include mobile{
-                        width: 40px;
+                        width: 35px;
                     }
                 }
           
