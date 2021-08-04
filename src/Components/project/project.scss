@@ -16,13 +16,14 @@
 
       @include mobile{
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        height: 90%;
+        flex-wrap: wrap;
         margin: auto;
       }
 
+    
 
         .proj {
           width: 350px;

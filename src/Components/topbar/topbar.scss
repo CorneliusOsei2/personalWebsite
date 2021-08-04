@@ -26,6 +26,11 @@
                 font-weight: bold;
                 text-decoration: none;
                 color:inherit;
+
+                @include mobile{
+                    font-size: 18px;
+                    margin-right: 18px;
+                }
             }
 
             .itemContainer {
@@ -79,6 +84,7 @@
 
     &.active{
         background-color: $mainColor;
+        opacity: 0.5;
         color:white;
 
         .hamburger{
