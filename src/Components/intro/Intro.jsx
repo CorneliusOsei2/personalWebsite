@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import particlesConfig from '../particle/particlesConfig.json'
 import { init } from 'ityped'
 import {useEffect, useRef} from 'react'
-import {Person, LinkedIn, AssignmentInd} from '@material-ui/icons'
+import {GitHub, LinkedIn, AssignmentInd} from '@material-ui/icons'
 
 
 function Intro() {
@@ -22,7 +22,7 @@ function Intro() {
             typeSpeed: 40,
             showCursor: false,
             backDelay: 50000,
-            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'],
+            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. consectetur adipiscing elit, sed do eiusmod tempor'],
             
         })
     }, [])
@@ -37,6 +37,7 @@ function Intro() {
 
                 <div className="itemContainer">
                     <a href="linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
+                    <a href=""><GitHub className="icon" /></a>
                     <a href=""><AssignmentInd className="icon" /></a>
                 </div>
             </div>

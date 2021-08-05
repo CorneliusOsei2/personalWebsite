@@ -36,12 +36,16 @@
             margin-top: 15px;
             margin-bottom: 10px;
             margin-left: 20px;
-            height: 50px;
+            height: 60px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px rgb(211, 205, 205);
 
 
             .icon{
-                font-size: 40px;
+                font-size: 35px;
                 margin-right: 20px;
+                margin-left: 20px;
+                margin-bottom: 5px;
             }
 
             @include mobile{
@@ -51,14 +55,15 @@
         }
 
         .imgContainer{
-            width: 700px;
-            height: 500px;
-            background-color:blue;
+            width: 300px;
+            height: 300px;
+            background-color:rgb(13, 26, 218);
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: left;
+            border: 8px double white;
 
             @include mobile{
                 align-items: flex-start;
