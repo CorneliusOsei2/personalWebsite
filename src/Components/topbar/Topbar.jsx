@@ -8,7 +8,6 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
             <div className="wrapper d-flex justify-content-between">
                 <div className="left">
                     <a href="#intro" className="logo">Cornelius Boateng</a>
-                    
                 </div>
 
                 <div className="right">

@@ -44,19 +44,12 @@ function Intro() {
 
             <div className="right">
                 <Particles params={particlesConfig} className='particles-container'/>
-
                 <div className="wrapper">
                     <h4>Hi there, I'm</h4>
                     <h2>Cornelius</h2>
                     <h4 ref={titleRef}></h4>
 
-                    <p ref={descRef}>
-
-                    </p>
-
-                    <a href="#project">
-                        <img src="Images/arrow.png" alt="" />
-                    </a>
+                    <p ref={descRef}></p>
 
                 </div>
 

@@ -5,14 +5,15 @@
     overflow: hidden;
     color: $mainColor;
     width: 100%;
-    height: 45px;
+    height: 26px;
     position: fixed;
     top: 0;
     z-index: 3;
     transition: all 1s ease;
 
     .wrapper {
-        padding: 10px 30px;
+        height: 30px;
+        padding: 0 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;

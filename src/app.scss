@@ -3,10 +3,10 @@
 
     .sections{
         width: 100%;
-        height: calc(100% - 70px);
+        height: calc(100% - 40px);
         background-color: grey;
         position: relative;
-        top: 70px;
+        top: 40px;
         // scroll-snap-type: y mandatory;
         scrollbar-width: none; //firefox
         &::-webkit-scrollbar{
