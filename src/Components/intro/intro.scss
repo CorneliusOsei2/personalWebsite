@@ -31,12 +31,13 @@
        
         .itemContainer {
             display: flex;
+            padding-top: 3px;
             justify-content: center;
             align-items: center;
-            margin-top: 5px;
+            margin-top: 20px;
             margin-bottom: 10px;
             margin-left: 20px;
-            height: 70px;
+            height: 25%;
             border-radius: 5px;
             box-shadow: 2px 2px 2px 2px rgb(211, 205, 205);
 
@@ -93,7 +94,6 @@
             flex: 0.6;
         }
 
-        
         .wrapper{
             width: 100%;
             height: 100%;
