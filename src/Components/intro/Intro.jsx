@@ -36,9 +36,9 @@ function Intro() {
                 </div>
 
                 <div className="itemContainer">
-                    <a href="linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
+                    <a href=""><LinkedIn className="icon"/></a>
                     <a href=""><GitHub className="icon" /></a>
-                    <a href=""><AssignmentInd className="icon" /></a>
+                    <a href="/google.com"><AssignmentInd className="icon" /></a>
                 </div>
             </div>
 

@@ -12,7 +12,7 @@
     background-color: white;
     overflow: hidden;
     display: flex;
-    height: 100%;
+    height: calc(100vh - 80px);
 
 
     @include mobile{
@@ -88,9 +88,11 @@
 
     .right{
         flex: 0.5;
-        flex-wrap: wrap;
         position: relative;
         overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
 
         @include mobile{
             flex: 0.6;
