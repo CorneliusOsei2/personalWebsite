@@ -3,30 +3,31 @@
 
 .project{
     padding-bottom: 8px;
-
-    h2{
-      margin-top: 5px;
-      font-size: 20px;
-    };
-
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    overflow: hidden;
+
+
+    h2{margin-top: 80px;
+      margin-top: 1.5%;
+      font-size: 30px;
+      margin-bottom: 20px;
+    };
 
     .proj-container{
+      margin-bottom: 10%;
       width: 100%;
-      height: 500px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 4%;
+      overflow: hidden;
 
       @include mobile{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 90%;
         flex-wrap: wrap;
         margin: auto;
       }
@@ -34,8 +35,8 @@
     
 
         .proj {
-          width: 350px;
-          height: 100%;
+          width: 380px;
+          height: 450px;
           border-radius: 10px;
           box-shadow: 0px 0px 15px -8px black;
           display: flex;
@@ -45,26 +46,24 @@
           margin: auto;
           margin-right: 20px;
           margin-left: 20px;
+          margin-bottom: 3%;
+          margin-top: 3%;
   
 
           @include mobile{
-            width: 400px;
-            height: 100%;
             margin-left: 10px;
             margin-right: 10px;
             margin-bottom: 35px;
           }
 
             &:hover {
-                width: 350px;
-                height: 90%;
+                width: 390px;
+                height: 460px;
                 transform: scale(1.05);
                 transition: all 0.5s ease;
                 
 
                 @include mobile{
-                  width: 370px;
-                  height: 90%;
                   margin-top: 20px;
                   margin-bottom: 35px;
                   margin-left: 20px;
@@ -74,47 +73,18 @@
 
             .top {
 
-                height: 300px;
+                height: 60%;
 
-                .image-box{
-                    display: flex;
-                    height: 100%;
-                    width: 400%;
-                    justify-content: space-between;
-                  }
-                  .image-box{
-                    animation: imgBox 10s linear infinite;
-                  }
-                  @keyframes imgBox{
-                    0%{
-                      margin-left: 0;
-                    }
-                    100%{
-                      margin-left: -300%;
-                    }
-                  }
-                  .image-box:hover{
-                    animation-play-state: paused;
-                  }
-                  .image-box .image{
-                    width: calc(100% - 100px);
-                    height: 100%;
-                  }
-                  .image-box img{
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                  }
-
-                  @include mobile{
-                    width: 100%;
-                    height: 200px;
-                  }
+                video{
+                  height: 100%;
+                  width: 100%;
+                }
+                 
             }
 
 
             .bottom {
-                height: 200px;
+                height: 40%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -123,6 +93,7 @@
 
                 .title{
                   font-weight: bold;
+                  height: 10%;
                 }
 
                 @include mobile{
@@ -131,7 +102,8 @@
 
             
                 .description{
-                  font-size: 10px;
+                  height: 50%;
+                  font-size: 14px;
 
                   @include mobile{
                     font-size: 12px;
@@ -140,6 +112,7 @@
 
                 .tech {
                     padding: 2px;
+                    height: 40%;
 
                     div{
                       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
