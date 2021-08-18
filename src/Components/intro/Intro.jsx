@@ -22,8 +22,7 @@ function Intro() {
             typeSpeed: 40,
             showCursor: false,
             backDelay: 50000,
-            strings: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. consectetur adipiscing elit, sed do eiusmod tempor'],
-            
+            strings: ['I am a Computer Science Student at Cornell University passionate about solving problems with efficient means!']
         })
     }, [])
 
