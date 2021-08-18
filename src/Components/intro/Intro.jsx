@@ -36,9 +36,9 @@ function Intro() {
                 </div>
 
                 <div className="itemContainer">
-                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferr" href="www.google.com"><LinkedIn className="icon"/></a>
-                    <a href=""><GitHub className="icon" /></a>
-                    <a href="https://www.google.com"><AssignmentInd className="icon" /></a>
+                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferr" href="https://www.linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
+                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferr" href="https://github.com/CorneliusOsei2"><GitHub className="icon" /></a>
+                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferr" href="https://www.linkedin.com/in/cornelius-boateng-29b5b01a5"><AssignmentInd className="icon" /></a>
                 </div>
             </div>
 
