@@ -36,7 +36,7 @@ function Intro() {
                 </div>
 
                 <div className="itemContainer">
-                    <a aria-label="false" target="_blank" href="www.google.com"><LinkedIn className="icon"/></a>
+                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferr" href="www.google.com"><LinkedIn className="icon"/></a>
                     <a href=""><GitHub className="icon" /></a>
                     <a href="/google.com"><AssignmentInd className="icon" /></a>
                 </div>
