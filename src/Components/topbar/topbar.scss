@@ -16,15 +16,13 @@
         height: 100%;
         padding: 0 10px;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        // align-items: center;
+        // justify-content: space-between;
 
         .left {
             display:flex;
-            align-items: center;
-
+            
             .logo {
-                margin-right: 40px;
                 font-size: 26px;
                 font-weight: bold;
                 text-decoration: none;
@@ -42,6 +40,7 @@
             
 
             .hamburger{
+                margin: auto;
                 width: 32px;
                 height: 25px;
                 display: flex;
