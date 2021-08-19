@@ -18,7 +18,7 @@ const App = () => {
         <Intro menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Project />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
