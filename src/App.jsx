@@ -1,4 +1,3 @@
-import Topbar from './Components/topbar/Topbar'
 import Intro from './Components/intro/Intro'
 import Project from './Components/project/Project'
 import Menu from './Components/menu/Menu'
@@ -13,10 +12,10 @@ const App = () => {
 
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
-        <Intro/>
+        <Intro menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Project />
       </div>
       <Footer />
