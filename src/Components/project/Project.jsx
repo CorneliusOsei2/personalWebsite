@@ -14,7 +14,7 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            {/* <video className="vid" autoPlay loop muted>
+                            {/* <video className="vid" autoPlay loop muted defaultMuted>
                                 <source src={snake_game} type="video/mp4"/>
                             </video> */}
                         </div>
@@ -41,7 +41,7 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            <video className="vid" autoPlay loop muted>
+                            <video className="vid" autoPlay loop muted defaultMuted>
                                 <source src={roster_automator} type="video/mp4"/>
                             </video>
                         </div>
@@ -67,7 +67,7 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            <video className="vid" autoPlay loop muted>
+                            <video className="vid" autoPlay loop muted defaultMuted>
                                 <source src={snake_game} type="video/mp4"/>
                             </video>
                         </div>
