@@ -8,7 +8,7 @@ import snake_game from '../../media/snake-game.mp4'
 function Project() {
     return (
         <div className="project" id="project">
-            <h2>Projects</h2>
+            <h2>PROJECTS</h2>
 
             <div className="proj-container">
                 <div className="proj">
@@ -57,7 +57,7 @@ function Project() {
                         
                         <div className="tech">
                             <div>Built with:</div>
-                            Node JS |MongoDB |EJS |CSS3 |Passport | Cloudinary | Bootstrap 5
+                            Python
                             <br />
                             <a className="visit-btn" href="http://www.studypot.org"> Demo </a>
                         </div>
