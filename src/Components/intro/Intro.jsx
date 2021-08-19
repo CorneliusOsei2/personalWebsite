@@ -5,8 +5,10 @@ import { init } from 'ityped'
 import {useEffect, useRef} from 'react'
 import {GitHub, LinkedIn, AssignmentInd} from '@material-ui/icons'
 
+import Topbar from '../topbar/Topbar'
 
-function Intro() {
+
+function Intro({menuOpen, setMenuOpen}) {
     const titleRef = useRef()
     const descRef = useRef()
 
@@ -28,7 +30,9 @@ function Intro() {
 
     
     return (
+        
         <div className="intro" id="intro">
+            <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="left">
                 <div className="imgContainer">
                     <img src="" alt="" />
