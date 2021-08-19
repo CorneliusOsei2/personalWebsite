@@ -66,12 +66,14 @@
             justify-content: center;
             float: left;
             border: 8px double white;
+            
 
             @include mobile{
                 align-items: flex-start;
                 margin-bottom: 8px;
                 height: 340px;
                 width: 100%;
+                margin-top: 10%;
             }
 
             img{
