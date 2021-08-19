@@ -2,7 +2,7 @@
 
 
 .project{
-    overscroll-behavior: auto;
+    overscroll-behavior: contain;
     padding-bottom: 8px;
     display: flex;
     flex-direction: column;
