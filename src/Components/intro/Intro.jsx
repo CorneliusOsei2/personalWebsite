@@ -7,6 +7,7 @@ import {GitHub, LinkedIn, AssignmentInd} from '@material-ui/icons'
 
 import Topbar from '../topbar/Topbar'
 import person from '../../media/person.jpg'
+import resume from '../../media/resume.pdf'
 
 
 function Intro({menuOpen, setMenuOpen}) {
@@ -25,7 +26,7 @@ function Intro({menuOpen, setMenuOpen}) {
             typeSpeed: 40,
             showCursor: false,
             backDelay: 50000,
-            strings: ['A Computer Science Student at Cornell University passionate about solving problems with efficient means! I like learning new stuff and writing code']
+            strings: ['A Computer Science Student at Cornell University interested in solving problems through efficient means! I like learning new stuff and writing code']
         })
     }, [])
 
@@ -40,9 +41,9 @@ function Intro({menuOpen, setMenuOpen}) {
                 </div>
 
                 <div className="itemContainer">
-                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferrer" href="https://www.linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
-                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferrer" href="https://github.com/CorneliusOsei2"><GitHub className="icon" /></a>
-                    <a aria-label="false" target="_blank" tabIndex="0" rel="noopener noreferrer" href="https://www.linkedin.com/in/cornelius-boateng-29b5b01a5"><AssignmentInd className="icon" /></a>
+                    <a  target="_blank" tabIndex="0" rel="noopener noreferrer" href="https://www.linkedin.com/in/cornelius-boateng-29b5b01a5"><LinkedIn className="icon"/></a>
+                    <a  target="_blank" tabIndex="0" rel="noopener noreferrer" href="https://github.com/CorneliusOsei2"><GitHub className="icon" /></a>
+                    <a  target="_blank" tabIndex="0" rel="noopener noreferrer" href={resume}><AssignmentInd className="icon" /></a>
                 </div>
             </div>
 

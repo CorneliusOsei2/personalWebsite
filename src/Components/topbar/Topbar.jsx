@@ -2,6 +2,7 @@ import './topbar.scss'
 
 import React from 'react'
 
+
 const Topbar = ({menuOpen, setMenuOpen}) => {
     return (
         <div className= {"topbar " + (menuOpen && 'active')}>

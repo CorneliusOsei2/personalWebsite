@@ -1,5 +1,7 @@
 import './menu.scss';
 
+import resume from '../../media/resume.pdf'
+
 const Menu = ({menuOpen, setMenuOpen}) => {
     return (
         <div className={"menu " + (menuOpen && "active")}>
@@ -11,7 +13,7 @@ const Menu = ({menuOpen, setMenuOpen}) => {
                     <a href="#project">Projects</a>
                 </li>
                 <li onClick={() => setMenuOpen(!menuOpen)}>
-                    <a href="#project">Resume</a>
+                    <a href={resume}>Resume</a>
                 </li>
             </ul>
         </div>
