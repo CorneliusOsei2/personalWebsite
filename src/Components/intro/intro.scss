@@ -57,13 +57,14 @@
         }
 
         .imgContainer{
-            width: 300px;
-            height: 300px;
+           
+            width: 400px;
+            height: 40%;
             background-color:rgb(13, 26, 218);
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
             float: left;
             border: 8px double white;
             
@@ -71,16 +72,19 @@
             @include mobile{
                 align-items: flex-start;
                 margin-bottom: 8px;
-                height: 340px;
-                width: 100%;
+                width: 70%;
+                height: 100%;
                 margin-top: 10%;
             }
 
             img{
-                height: 60%;
+                height: 100%;
+                width: 100%;
+                
+
 
                 @include mobile{
-                    height: 50%;
+                    height: 100%;
                 }
             }
 

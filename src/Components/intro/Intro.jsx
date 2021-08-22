@@ -6,6 +6,7 @@ import {useEffect, useRef} from 'react'
 import {GitHub, LinkedIn, AssignmentInd} from '@material-ui/icons'
 
 import Topbar from '../topbar/Topbar'
+import person from '../../media/person.jpg'
 
 
 function Intro({menuOpen, setMenuOpen}) {
@@ -35,8 +36,7 @@ function Intro({menuOpen, setMenuOpen}) {
             <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="left">
                 <div className="imgContainer">
-                    <img src="" alt="" />
-                    <p>An amazing picture is on its way</p>
+                    <img src={person} alt="" />
                 </div>
 
                 <div className="itemContainer">

@@ -6,13 +6,13 @@
         background-color: grey;
         position: relative;
         top: 40px;
-        // scroll-snap-type: y mandatory;
-        // scroll-snap-align: start;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
         // scrollbar-width: none; //firefox
         // &::-webkit-scrollbar{
         //     display: none;
         // }
-        // scroll-behavior: smooth;
+        scroll-behavior: smooth;
 
         // > *{
         //     // width: 100vw;
