@@ -14,7 +14,7 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            {/* <video className="vid" autoPlay loop muted defaultmuted>
+                            {/* <video className="vid" playsInline autoPlay loop muted defaultmuted>
                                 <source src={snake_game} type="video/mp4"/>
                             </video> */}
                         </div>
@@ -51,8 +51,7 @@ function Project() {
                     <div className="bottom">
                         <div className="title">Cornell Roster Automator</div>
                             <div className="description">
-                                Developed to host organized learning materials on the medical sciences
-                                to expose students to selected topics and help them make up for class lessons lost to the pandemic.
+                                Automates the selection of courses from the Cornell Roster and accounts for course time overlaps and updates.
                             </div>
                         
                         <div className="tech">
@@ -67,7 +66,7 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            <video className="vid" autoPlay loop muted defaultmuted>
+                            <video className="vid" playsInline autoPlay loop muted defaultmuted>
                                 <source src={snake_game} type="video/mp4"/>
                             </video>
                         </div>

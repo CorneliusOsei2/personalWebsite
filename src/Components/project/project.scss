@@ -145,13 +145,22 @@
                     .visit-btn{
                       display: flex;
                       justify-content: center;
-                      width: 80px;
+                      align-items: center;
+                      width: 100px;
+                      height: 25px;
                       margin: auto;
                       color: #0d1ada;
                       border: 1px solid #0d1ada;
                       border-radius:8px;
                       text-decoration: none;
                       font-weight: bold;
+                      transition: all 0.5s ease;
+
+                        &:hover{
+                          background-color: #0d1ada;
+                          color: white;
+                          opacity: 0.8;
+                        }
                     }
                 }
             }

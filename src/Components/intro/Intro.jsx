@@ -26,7 +26,7 @@ function Intro({menuOpen, setMenuOpen}) {
             typeSpeed: 40,
             showCursor: false,
             backDelay: 50000,
-            strings: ['A Computer Science Student at Cornell University interested in solving problems through efficient means! I like learning new stuff and writing code']
+            strings: ['A Computer Science Student at Cornell University interested in solving problems through efficient means! I like learning new stuff and writing code!']
         })
     }, [])
 
