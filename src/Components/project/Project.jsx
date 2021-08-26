@@ -3,6 +3,7 @@ import './project.scss'
 
 import roster_automator from '../../media/roster-automator.mp4'
 import snake_game from '../../media/snake-game.mp4'
+import study_pot from 'media/study-pot.mp4'
 
 
 function Project() {
@@ -14,9 +15,9 @@ function Project() {
                 <div className="proj">
                     <div className="top">
                         <div className="vid">
-                            {/* <video className="vid" playsInline autoPlay loop muted defaultmuted>
-                                <source src={snake_game} type="video/mp4"/>
-                            </video> */}
+                            <video className="vid" playsInline autoPlay loop muted defaultmuted>
+                                <source src={study_pot} type="video/mp4"/>
+                            </video>
                         </div>
 
                     </div>
