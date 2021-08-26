@@ -32,7 +32,7 @@ function Project() {
                             <div>Built with:</div>
                             Node JS |MongoDB |EJS |CSS3 |Passport | Cloudinary | Bootstrap 5
                             <br />
-                            <a className="visit-btn" href="http://www.studypot.org"> Visit </a>
+                            <a target="_blank" tabIndex="0" rel="noopener noreferrer" className="visit-btn" href="http://www.studypot.org"> Visit </a>
                         </div>
                         
                     </div>
@@ -58,7 +58,7 @@ function Project() {
                             <div>Built with:</div>
                             Python
                             <br />
-                            <a className="visit-btn" href="http://www.studypot.org"> Demo </a>
+                            <a target="_blank" tabIndex="0" rel="noopener noreferrer" className="visit-btn" href="https://www.youtube.com/embed/gyaW1HIyQrI"> Demo </a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ function Project() {
                             <div>Built with:</div>
                             HTML | CSS | JavaScript | Firebase
                             <br />
-                            <a className="visit-btn" href="https://box-snake-game-e79e8.web.app"> Try it! </a>
+                            <a target="_blank" tabIndex="0" rel="noopener noreferrer" className="visit-btn" href="https://box-snake-game-e79e8.web.app"> Try it! </a>
                         </div>
                     </div>
                 </div>
