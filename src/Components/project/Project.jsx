@@ -3,7 +3,7 @@ import './project.scss'
 
 import roster_automator from '../../media/roster-automator.mp4'
 import snake_game from '../../media/snake-game.mp4'
-import study_pot from 'media/study-pot.mp4'
+import study_pot from '../../media/study-pot.mp4'
 
 
 function Project() {
