@@ -1,5 +1,5 @@
 import './intro.scss'
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import particlesConfig from '../particle/particlesConfig.json'
 import { init } from 'ityped'
 import {useEffect, useRef} from 'react'
@@ -48,14 +48,12 @@ function Intro({menuOpen, setMenuOpen}) {
             </div>
 
             <div className="right">
-                <Particles params={particlesConfig} className='particles-container'/>
                 <div className="wrapper">
                     <h4>Hi there, I'm</h4>
                     <h2 ref={titleRef} ></h2>
 
                     <p ref={descRef}></p>
                     <p className="emoji">🧑🏾‍💻</p>
-
                 </div>
 
                 

@@ -4,7 +4,7 @@ import React from 'react';
 function Particle() {
   return (
     <>
-      <Particles
+      <Particle
         params={{
           "particles": {
               "number": {
