@@ -16,8 +16,7 @@
         "react-tsparticles": "^1.33.1",
         "sass": "^1.36.0",
         "tsparticles": "^1.33.1",
-        "web-vitals": "^1.1.2",
-        "nth-check": ">=2.0.1"
+        "web-vitals": "^1.1.2"
     },
     "scripts": {
         "start": "react-scripts start",
